@@ -1,0 +1,51 @@
+First version of result (before adding sorting)
+
+--- Testing Index Quality ---
+Brute force time:  0.0429685115814209
+Implemented time:  0.0
+Indexing is correct
+Indexing is good
+
+--- Testing Dynamic Updates ---
+Add is correct
+Remove is correct
+
+--- Storing Indexes ---
+
+--- Verifying Load logic ---
+comparing indexes
+Success: documents index matches disk content.
+comparing indexes
+Success: characters index matches disk content.
+comparing indexes
+Success: genres index matches disk content.
+comparing indexes
+Success: description index matches disk content.
+
+Process finished with exit code 0
+
+
+Second version of result (after adding sorting):
+--- Testing Index Quality ---
+Brute force time:  0.03050708770751953
+Implemented time:  0.0
+Indexing is correct
+Indexing is good
+
+--- Testing Dynamic Updates ---
+Add is correct
+Remove is correct
+
+--- Storing Indexes ---
+
+--- Verifying Load logic ---
+comparing indexes
+Success: documents index matches disk content.
+comparing indexes
+Success: characters index matches disk content.
+comparing indexes
+Success: genres index matches disk content.
+comparing indexes
+Success: description index matches disk content.
+
+Process finished with exit code 0
