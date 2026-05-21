@@ -1,0 +1,15 @@
+Below we have the result of this code:
+if __name__ == "__main__":
+    search_engine = SearchEngine(path='indexer/index/')
+    query = "magic adventure"
+    method = "lnc.ltc"
+    weights = {
+        Indexes.CHARACTERS: 1,
+        Indexes.GENRES: 1,
+        Indexes.DESCRIPTIONS: 1,
+    }
+    result = search_engine.search(query, method, weights)
+    print(result)
+
+Result:
+[('4920', 0.09994503167432611), ('5880', 0.09296945792401047), ('7214', 0.09240068606679094), ('13377', 0.0887660381920781), ('17764', 0.08829438534958961), ('2938', 0.08616365329126051), ('13001', 0.08484670565622425), ('12774', 0.08438443012406241), ('8497', 0.0818048568635471), ('11155', 0.07884193500436076)]
